@@ -1,0 +1,1983 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1x1 Lernen</title>
+</head>
+<body>
+
+
+    <h1 align='center'><u>Lernplattform für das ein mal eins</u></h1>
+<br>
+
+<h3>Anleitung:</h3>
+
+<p>Du kannst wählen, ob du mit Lösungen oder ohne spielen willst.</p> 
+(Beim starten, des Programms einfach "Ja" eingeben. <br>
+Das Ja bitte ohne anführungszeichen eingeben.)
+    <p>Wenn du ohne Lösungen spielst und du ein falsches Ergebnis angegeben hast, wird die Lösung gesagt, woraufhin man <br> 
+        es selber nochmal eingeben muss, bevor es weitergeht. <br>
+    Wenn du dann mit dem Durchgang fertig bist, wird dir angezeigt, wie viele Fehler du hattest. </p>
+        <hr>
+        <p>Du kannst anfangs auch sagen, dass du ohne Lösungen Spielen willst. <br>
+       <br> (Dafür einfach beim Starten, des Programms, "Nein" eingeben. <br> Das Nein bitte ohne anführungszeichen eingeben.) <br> <br>
+        Falls du mal was Falsch eingibst, musst du es so oft neu eingeben bis es richtg ist. <br>
+    Am Ende wird auch hier wieder angezeigt, wie viele Fehler du hattest.</p>
+        <p>Sobald du mit all dem fertig bist, wird das Programm beendet und du kannst das nächste nach belieben Starten.</p>
+<hr>
+<p style=' background-color : yellow; padding : 10px'   align='center'><i>Klicke auf eines der "ein mal eins" Texte um die entsrechende Übung zu Starten</i></p>
+<hr>
+
+    <div onClick="z2er_1x1();">
+        <p align='center' title='Klicken zum Starten des 2er 1x1' style='font-size:22pt; color:black; text-shadow: gray 0.2em 0.2em 0.1em;'>2er ein mal eins</p>
+    </div>
+
+
+    <div onClick="z3er_1x1();">
+        <p align='center' title='Klicken zum Starten des 3er 1x1' style='font-size:22pt; color:black; text-shadow: gray 0.2em 0.2em 0.1em;'>3er ein mal eins</p>
+    </div>
+
+
+    <div onClick="z4er_1x1();">
+        <p align='center' title='Klicken zum Starten des 4er 1x1' style='font-size:22pt; color:black; text-shadow: gray 0.2em 0.2em 0.1em;'>4er ein mal eins</p>
+    </div>
+
+
+    <div onClick="z5er_1x1();">
+        <p align='center' title='Klicken zum Starten des 5er 1x1' style='font-size:22pt; color:black; text-shadow: gray 0.2em 0.2em 0.1em;'>5er ein mal eins</p>
+    </div>
+
+
+    <div onClick="z6er_1x1();">
+        <p align='center' title='Klicken zum Starten des 6er 1x1' style='font-size:22pt; color:black; text-shadow: gray 0.2em 0.2em 0.1em;'>6er ein mal eins</p>
+    </div>
+
+
+    <div onClick="z7er_1x1();">
+        <p align='center' title='Klicken zum Starten des 7er 1x1' style='font-size:22pt; color:black; text-shadow: gray 0.2em 0.2em 0.1em;'>7er ein mal eins</p>
+    </div>
+
+
+    <div onClick="z8er_1x1();">
+        <p align='center' title='Klicken zum Starten des 8er 1x1' style='font-size:22pt; color:black; text-shadow: gray 0.2em 0.2em 0.1em;'>8er ein mal eins </p>
+    </div>
+
+
+    <div onClick="z9er_1x1();">
+        <p align='center' title='Klicken zum Starten des 9er 1x1' style='font-size:22pt; color:black; text-shadow: gray 0.2em 0.2em 0.1em;'>9er ein mal eins</p>
+    </div>
+
+
+<script> 
+function z2er_1x1(){
+  
+//do{
+
+//do{
+
+    var frage=prompt('Möchtest du mit Lösungen Spielen?');
+
+if(frage=='Ja' || frage=='ja'){
+
+var falschA=0;
+
+
+do{
+    var z2x2=prompt('Was ist 2x2 ?')
+
+    if(z2x2=='4'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 4');}
+
+    falschA++;
+
+}while(z2x2!='4');
+
+do{
+    var z2x3=prompt('Was ist 2x3 ?')
+
+    if(z2x3=='6'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 6');}
+
+    falschA++;
+
+}while(z2x3!='6');
+
+do{
+    var z2x4=prompt('Was ist 2x4 ?')
+
+    if(z2x4=='8'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 8');}
+
+    falschA++;
+
+    }while(z2x4!='8');
+
+
+do{
+    var z2x5=prompt('Was ist 2x5 ?')
+
+    if(z2x5=='10'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 10');}
+
+    falschA++;
+
+}while(z2x5!='10');
+
+
+do{
+    var z2x6=prompt('Was ist 2x6 ?')
+
+    if(z2x6=='12'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 12');}
+
+    falschA++;
+
+}while(z2x6!='12');
+
+
+do{
+    var z2x7=prompt('Was ist 2x7 ?')
+
+    if(z2x7=='14'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 14');}
+
+    falschA++;
+
+}while(z2x7!='14');
+
+
+do{
+    var z2x8=prompt('Was ist 2x8 ?')
+
+    if(z2x8=='16'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 16');}
+
+    falschA++;
+
+}while(z2x8!='16');
+
+
+do{
+    var z2x9=prompt('Was ist 2x9 ?')
+
+    if(z2x9=='18'){alert('Prima das ist richtg \nweiter so!');
+   }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 18');}
+
+    falschA++;
+
+}while(z2x9!='18');
+
+
+do{
+    var z2x10=prompt('Was ist 2x10 ?')
+
+    if(z2x10=='20'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 20');}
+
+    falschA++;
+
+}while(z2x10!='20');
+
+
+
+
+falschA=falschA-9;
+        alert('Du hast '+falschA+' fehler bei 9 Aufgaben');
+
+            
+
+        //var neuSpiel=prompt('Wenn du nochmal Spielen willst, dann tippe "Ja" ein. \nWenn du ohnel Lösungen Spielen willst, dann tippe "Weiter" ein. \nDu kannst auch jetzt aufhören und musst irgendeas anderes eingeben, um das Programm zu unterbrechen');
+        //neuSpielR
+    //}while(neuSpiel=='Ja'&&neuSpiel=='ja');
+
+
+
+}else if(frage=='Nein' || frage=='nein'){
+
+
+
+    var falschAPro=0;
+
+
+do{
+    var z2x2=prompt('Was ist 2x2 ?')
+
+    if(z2x2=='4'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z2x2!='4');
+
+do{
+    var z2x3=prompt('Was ist 2x3 ?')
+
+    if(z2x3=='6'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z2x2!='6');
+
+do{
+    var z2x4=prompt('Was ist 2x4 ?')
+
+    if(z2x4=='8'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z2x4!='8');
+
+
+do{
+    var z2x5=prompt('Was ist 2x5 ?')
+
+    if(z2x5=='10'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z2x5!='10');
+
+
+
+do{
+    var z2x6=prompt('Was ist 2x6 ?')
+
+    if(z2x6=='12'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z2x6!='12');
+
+
+do{
+    var z2x7=prompt('Was ist 2x7 ?')
+
+    if(z2x7=='14'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z2x7!='14');
+
+
+do{
+    var z2x8=prompt('Was ist 2x8 ?')
+
+    if(z2x8=='16'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z2x8!='16');
+
+
+do{
+    var z2x9=prompt('Was ist 2x9 ?')
+
+    if(z2x9=='18'){alert('Prima das ist richtg \nweiter so!');
+   }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z2x9!='18');
+
+
+do{
+    var z2x10=prompt('Was ist 2x10 ?')
+
+    if(z2x10=='20'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+
+}while(z2x10!='20');
+
+
+
+
+falschAPro=falschAPro-9;
+alert('Du hast '+falschAPro+' fehler bei 9 Aufgaben');
+
+//var neuSpielR=prompt('Wenn du nochmal mit Antworten Spielen willst, dann tippe "Ja" ein. \nWenn du aufhören willst dann tippe irgendwas anderes ein.');
+//neuSpielR
+//}while(neuSpielR=='Ja'&&neuSpiel=='ja');
+}
+}
+
+
+
+
+
+function z3er_1x1(){
+
+//do{
+
+//do{
+
+    var frage=prompt('Möchtest du mit Lösungen Spielen?');
+
+if(frage=='Ja' || frage=='ja'){
+
+var falschA=0;
+
+
+do{
+    var z3x2=prompt('Was ist 3x2 ?')
+
+    if(z3x2=='6'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 6');}
+
+    falschA++;
+
+}while(z3x2!='6');
+
+do{
+    var z3x3=prompt('Was ist 3x3 ?')
+
+    if(z3x3=='9'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 9');}
+
+    falschA++;
+
+}while(z3x3!='9');
+
+do{
+    var z3x4=prompt('Was ist 3x4 ?')
+
+    if(z3x4=='12'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 12');}
+
+    falschA++;
+
+    }while(z3x4!='12');
+
+
+do{
+    var z3x5=prompt('Was ist 3x5 ?')
+
+    if(z3x5=='15'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 15');}
+
+    falschA++;
+
+}while(z3x5!='15');
+
+
+do{
+    var z3x6=prompt('Was ist 3x6 ?')
+
+    if(z3x6=='18'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 18');}
+
+    falschA++;
+
+}while(z3x6!='18');
+
+
+do{
+    var z3x7=prompt('Was ist 3x7 ?')
+
+    if(z3x7=='21'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 21');}
+
+    falschA++;
+
+}while(z3x7!='21');
+
+
+do{
+    var z3x8=prompt('Was ist 3x8 ?')
+
+    if(z3x8=='24'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 24');}
+
+    falschA++;
+
+}while(z3x8!='24');
+
+
+do{
+    var z3x9=prompt('Was ist 3x9 ?')
+
+    if(z3x9=='27'){alert('Prima das ist richtg \nweiter so!');
+   }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 27');}
+
+    falschA++;
+
+}while(z3x9!='27');
+
+
+do{
+    var z3x10=prompt('Was ist 3x10 ?')
+
+    if(z3x10=='30'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 30');}
+
+    falschA++;
+
+}while(z3x10!='30');
+
+
+
+
+falschA=falschA-9;
+        alert('Du hast '+falschA+' fehler bei 9 Aufgaben');
+
+            
+
+       // var neuSpiel=prompt('Wenn du nochmal Spielen willst, dann tippe "Ja" ein. \nWenn du ohnel Lösungen Spielen willst, dann tippe irgendwas anderes ein.');
+        //neuSpielR
+    //}while(neuSpiel=='Ja'&&neuSpiel=='ja');
+
+}else if(frage=='Nein' || frage=='nein'){
+
+
+    var falschAPro=0;
+
+
+do{
+    var z3x2=prompt('Was ist 3x2 ?')
+
+    if(z3x2=='6'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z3x2!='6');
+
+do{
+    var z3x3=prompt('Was ist 2x3 ?')
+
+    if(z3x3=='9'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z3x3!='9');
+
+do{
+    var z3x4=prompt('Was ist 3x4 ?')
+
+    if(z3x4=='12'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z3x4!='12');
+
+
+do{
+    var z3x5=prompt('Was ist 3x5 ?')
+
+    if(z3x5=='15'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z3x5!='15');
+
+
+
+do{
+    var z3x6=prompt('Was ist 3x6 ?')
+
+    if(z3x6=='18'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z3x6!='18');
+
+
+do{
+    var z3x7=prompt('Was ist 3x7 ?')
+
+    if(z3x7=='21'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z3x7!='21');
+
+
+do{
+    var z3x8=prompt('Was ist 3x8 ?')
+
+    if(z3x8=='24'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z3x8!='24');
+
+
+do{
+    var z3x9=prompt('Was ist 3x9 ?')
+
+    if(z3x9=='27'){alert('Prima das ist richtg \nweiter so!');
+    }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z3x9!='27');
+
+
+do{
+    var z3x10=prompt('Was ist 3x10 ?')
+
+    if(z3x10=='30'){alert('Prima das ist richtg \nweiter so!');
+   }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+
+    falschAPro++;
+
+}while(z3x10!='30');
+
+
+
+
+
+
+falschAPro=falschAPro-9;
+alert('Du hast '+falschAPro+' fehler bei 9 Aufgaben');
+
+//var neuSpielR=prompt('Wenn du nochmal mit Antworten Spielen willst, dann tippe "Ja" ein. \nWenn du aufhören willst dann tippe irgendwas anderes ein.');
+//neuSpielR
+//}while(neuSpielR=='Ja'&&neuSpiel=='ja');
+}
+}
+
+
+function z4er_1x1(){
+    //do{
+    
+    //do{
+
+        var frage=prompt('Möchtest du mit Lösungen Spielen?');
+
+if(frage=='Ja' || frage=='ja'){
+    
+    var falschA=0;
+    
+    
+    do{
+        var z4x2=prompt('Was ist 4x2 ?')
+    
+        if(z4x2=='8'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 8');}
+    
+        falschA++;
+    
+    }while(z4x2!='8');
+    
+    do{
+        var z4x3=prompt('Was ist 4x3 ?')
+    
+        if(z4x3=='12'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 12');}
+    
+        falschA++;
+    
+    }while(z4x3!='12');
+    
+    do{
+        var z4x4=prompt('Was ist 4x4 ?')
+    
+        if(z4x4=='16'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 16');}
+    
+        falschA++;
+    
+        }while(z4x4!='16');
+    
+    
+    do{
+        var z4x5=prompt('Was ist 4x5 ?')
+    
+        if(z4x5=='20'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 20');}
+    
+        falschA++;
+    
+    }while(z4x5!='20');
+    
+    
+    do{
+        var z4x6=prompt('Was ist 4x6 ?')
+    
+        if(z4x6=='24'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 24');}
+    
+        falschA++;
+    
+    }while(z4x6!='24');
+    
+    
+    do{
+        var z4x7=prompt('Was ist 4x7 ?')
+    
+        if(z4x7=='28'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 28');}
+    
+        falschA++;
+    
+    }while(z4x7!='28');
+    
+    
+    do{
+        var z4x8=prompt('Was ist 4x8 ?')
+    
+        if(z4x8=='32'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 32');}
+    
+        falschA++;
+    
+    }while(z4x8!='32');
+    
+    
+    do{
+        var z4x9=prompt('Was ist 4x9 ?')
+    
+        if(z4x9=='36'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 36');}
+    
+        falschA++;
+    
+    }while(z4x9!='36');
+    
+    
+    do{
+        var z4x10=prompt('Was ist 4x10 ?')
+    
+        if(z4x10=='40'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 40');}
+    
+        falschA++;
+    
+    }while(z4x10!='40');
+    
+    
+    
+    
+    falschA=falschA-9;
+            alert('Du hast '+falschA+' fehler bei 9 Aufgaben');
+    
+                
+    
+           // var neuSpiel=prompt('Wenn du nochmal Spielen willst, dann tippe "Ja" ein. \nWenn du ohnel Lösungen Spielen willst, dann tippe irgendwas anderes ein.');
+            //neuSpielR
+        //}while(neuSpiel=='Ja'&&neuSpiel=='ja');
+    
+    }else if(frage=='Nein' || frage=='nein'){
+    
+    
+        var falschAPro=0;
+    
+    
+    do{
+        var z4x2=prompt('Was ist 4x2 ?')
+    
+        if(z4x2=='8'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z4x2!='8');
+    
+    do{
+        var z4x3=prompt('Was ist 4x3 ?')
+    
+        if(z4x3=='12'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z4x3!='12');
+    
+    do{
+        var z4x4=prompt('Was ist 4x4 ?')
+    
+        if(z4x4=='16'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z4x4!='16');
+    
+    
+    do{
+        var z4x5=prompt('Was ist 4x5 ?')
+    
+        if(z4x5=='20'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z4x5!='20');
+    
+    
+    
+    do{
+        var z4x6=prompt('Was ist 4x6 ?')
+    
+        if(z4x6=='24'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z4x6!='24');
+    
+    
+    do{
+        var z4x7=prompt('Was ist 4x7 ?')
+    
+        if(z4x7=='28'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z4x7!='28');
+    
+    
+    do{
+        var z4x8=prompt('Was ist 4x8 ?')
+    
+        if(z4x8=='32'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z4x8!='32');
+    
+    
+    do{
+        var z4x9=prompt('Was ist 4x9 ?')
+    
+        if(z4x9=='36'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z4x9!='36');
+    
+    
+    do{
+        var z4x10=prompt('Was ist 4x10 ?')
+    
+        if(z4x10=='40'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z4x10!='40');
+    
+    
+  
+    
+    
+    
+    falschAPro=falschAPro-9;
+    alert('Du hast '+falschAPro+' fehler bei 9 Aufgaben');
+    
+    //var neuSpielR=prompt('Wenn du nochmal mit Antworten Spielen willst, dann tippe "Ja" ein. \nWenn du aufhören willst dann tippe irgendwas anderes ein.');
+    //neuSpielR
+    //}while(neuSpielR=='Ja'&&neuSpiel=='ja');
+}
+}
+
+function z5er_1x1(){
+    //do{
+    
+    //do{
+
+        var frage=prompt('Möchtest du mit Lösungen Spielen?');
+
+if(frage=='Ja' || frage=='ja'){
+    
+    var falschA=0;
+    
+    
+    do{
+        var z5x2=prompt('Was ist 5x2 ?')
+    
+        if(z5x2=='10'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 10');}
+    
+        falschA++;
+    
+    }while(z5x2!='10');
+    
+    do{
+        var z5x3=prompt('Was ist 5x3 ?')
+    
+        if(z5x3=='15'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 15');}
+    
+        falschA++;
+    
+    }while(z5x3!='15');
+    
+    do{
+        var z5x4=prompt('Was ist 5x4 ?')
+    
+        if(z5x4=='20'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 20');}
+    
+        falschA++;
+    
+        }while(z5x4!='20');
+    
+    
+    do{
+        var z5x5=prompt('Was ist 5x5 ?')
+    
+        if(z5x5=='25'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 25');}
+    
+        falschA++;
+    
+    }while(z5x5!='25');
+    
+    
+    do{
+        var z5x6=prompt('Was ist 5x6 ?')
+    
+        if(z5x6=='30'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 30');}
+    
+        falschA++;
+    
+    }while(z5x6!='30');
+    
+    
+    do{
+        var z5x7=prompt('Was ist 5x7 ?')
+    
+        if(z5x7=='35'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 35');}
+    
+        falschA++;
+    
+    }while(z5x7!='35');
+    
+    
+    do{
+        var z5x8=prompt('Was ist 5x8 ?')
+    
+        if(z5x8=='40'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 40');}
+    
+        falschA++;
+    
+    }while(z5x8!='40');
+    
+    
+    do{
+        var z5x9=prompt('Was ist 5x9 ?')
+    
+        if(z5x9=='45'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 45');}
+    
+        falschA++;
+    
+    }while(z5x9!='45');
+    
+    
+    do{
+        var z5x10=prompt('Was ist 5x10 ?')
+    
+        if(z5x10=='50'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 50');}
+    
+        falschA++;
+    
+    }while(z5x10!='50');
+    
+    
+    
+    
+    falschA=falschA-9;
+            alert('Du hast '+falschA+' fehler bei 9 Aufgaben');
+    
+                
+    
+            //var neuSpiel=prompt('Wenn du nochmal Spielen willst, dann tippe "Ja" ein. \nWenn du ohnel Lösungen Spielen willst, dann tippe irgendwas anderes ein.');
+            //neuSpielR
+        //}while(neuSpiel=='Ja'&&neuSpiel=='ja');
+    
+    }else if(frage=='Nein' || frage=='nein'){
+    
+    
+        var falschAPro=0;
+    
+    
+    do{
+        var z5x2=prompt('Was ist 5x2 ?')
+    
+        if(z5x2=='10'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z5x2!='10');
+    
+    do{
+        var z5x3=prompt('Was ist 5x3 ?')
+    
+        if(z5x3=='15'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z5x3!='15');
+    
+    do{
+        var z5x4=prompt('Was ist 5x4 ?')
+    
+        if(z5x4=='20'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z5x4!='20');
+    
+    
+    do{
+        var z5x5=prompt('Was ist 5x5 ?')
+    
+        if(z5x5=='25'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z5x5!='25');
+    
+    
+    
+    do{
+        var z5x6=prompt('Was ist 5x6 ?')
+    
+        if(z5x6=='30'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z5x6!='30');
+    
+    
+    do{
+        var z5x7=prompt('Was ist 5x7 ?')
+    
+        if(z5x7=='35'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z5x7!='35');
+    
+    
+    do{
+        var z5x8=prompt('Was ist 5x8 ?')
+    
+        if(z5x8=='40'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z5x8!='40');
+    
+    
+    do{
+        var z5x9=prompt('Was ist 5x9 ?')
+    
+        if(z5x9=='45'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z5x9!='45');
+    
+    
+    do{
+        var z5x10=prompt('Was ist 5x10 ?')
+    
+        if(z5x10=='50'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z5x10!='50');
+    
+    
+  
+    
+    
+    
+    falschAPro=falschAPro-9;
+    alert('Du hast '+falschAPro+' fehler bei 9 Aufgaben');
+    
+    //var neuSpielR=prompt('Wenn du nochmal mit Antworten Spielen willst, dann tippe "Ja" ein. \nWenn du aufhören willst dann tippe irgendwas anderes ein.');
+    //neuSpielR
+    //}while(neuSpielR=='Ja'&&neuSpiel=='ja');
+}
+}
+
+function z6er_1x1(){
+    //do{
+    
+    //do{
+
+        var frage=prompt('Möchtest du mit Lösungen Spielen?');
+
+if(frage=='Ja' || frage=='ja'){
+    
+    var falschA=0;
+    
+    
+    do{
+        var z6x2=prompt('Was ist 6x2 ?')
+    
+        if(z6x2=='12'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 12');}
+    
+        falschA++;
+    
+    }while(z6x2!='12');
+    
+    do{
+        var z6x3=prompt('Was ist 6x3 ?')
+    
+        if(z6x3=='18'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 18');}
+    
+        falschA++;
+    
+    }while(z6x3!='18');
+    
+    do{
+        var z6x4=prompt('Was ist 6x4 ?')
+    
+        if(z6x4=='24'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 24');}
+    
+        falschA++;
+    
+        }while(z6x4!='24');
+    
+    
+    do{
+        var z6x5=prompt('Was ist 6x5 ?')
+    
+        if(z6x5=='30'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 30');}
+    
+        falschA++;
+    
+    }while(z6x5!='30');
+    
+    
+    do{
+        var z6x6=prompt('Was ist 6x6 ?')
+    
+        if(z6x6=='36'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 36');}
+    
+        falschA++;
+    
+    }while(z6x6!='36');
+    
+    
+    do{
+        var z6x7=prompt('Was ist 6x7 ?')
+    
+        if(z6x7=='42'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 42');}
+    
+        falschA++;
+    
+    }while(z6x7!='42');
+    
+    
+    do{
+        var z6x8=prompt('Was ist 6x8 ?')
+    
+        if(z6x8=='48'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 48');}
+    
+        falschA++;
+    
+    }while(z6x8!='48');
+    
+    
+    do{
+        var z6x9=prompt('Was ist 6x9 ?')
+    
+        if(z6x9=='54'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 54');}
+    
+        falschA++;
+    
+    }while(z6x9!='54');
+    
+    
+    do{
+        var z6x10=prompt('Was ist 6x10 ?')
+    
+        if(z6x10=='60'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 60');}
+    
+        falschA++;
+    
+    }while(z6x10!='60');
+    
+    
+    
+    
+    falschA=falschA-9;
+            alert('Du hast '+falschA+' fehler bei 9 Aufgaben');
+    
+                
+    
+            //var neuSpiel=prompt('Wenn du nochmal Spielen willst, dann tippe "Ja" ein. \nWenn du ohnel Lösungen Spielen willst, dann tippe irgendwas anderes ein.');
+            //neuSpielR
+        //}while(neuSpiel=='Ja'&&neuSpiel=='ja');
+    
+    }else if(frage=='Nein' || frage=='nein'){
+    
+    
+        var falschAPro=0;
+    
+    
+    do{
+        var z6x2=prompt('Was ist 6x2 ?')
+    
+        if(z6x2=='12'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z6x2!='12');
+    
+    do{
+        var z6x3=prompt('Was ist 6x3 ?')
+    
+        if(z6x3=='18'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z6x3!='18');
+    
+    do{
+        var z6x4=prompt('Was ist 6x4 ?')
+    
+        if(z6x4=='24'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z6x4!='24');
+    
+    
+    do{
+        var z6x5=prompt('Was ist 6x5 ?')
+    
+        if(z6x5=='30'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z6x5!='30');
+    
+    
+    
+    do{
+        var z6x6=prompt('Was ist 6x6 ?')
+    
+        if(z6x6=='36'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z6x6!='36');
+    
+    
+    do{
+        var z6x7=prompt('Was ist 6x7 ?')
+    
+        if(z6x7=='42'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z6x7!='42');
+    
+    
+    do{
+        var z6x8=prompt('Was ist 6x8 ?')
+    
+        if(z6x8=='48'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z6x8!='48');
+    
+    
+    do{
+        var z6x9=prompt('Was ist 6x9 ?')
+    
+        if(z6x9=='54'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z6x9!='54');
+    
+    
+    do{
+        var z6x10=prompt('Was ist 6x10 ?')
+    
+        if(z6x10=='60'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z6x10!='60');
+    
+    
+  
+    
+    
+    
+    falschAPro=falschAPro-9;
+    alert('Du hast '+falschAPro+' fehler bei 9 Aufgaben');
+    
+   // var neuSpielR=prompt('Wenn du nochmal mit Antworten Spielen willst, dann tippe "Ja" ein. \nWenn du aufhören willst dann tippe irgendwas anderes ein.');
+    //neuSpielR
+   // }while(neuSpielR=='Ja'&&neuSpiel=='ja');
+}
+}
+
+function z7er_1x1(){
+    //do{
+    
+    //do{
+
+        var frage=prompt('Möchtest du mit Lösungen Spielen?');
+
+if(frage=='Ja' || frage=='ja'){
+    
+    var falschA=0;
+    
+    
+    do{
+        var z7x2=prompt('Was ist 7x2 ?')
+    
+        if(z7x2=='14'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 14');}
+    
+        falschA++;
+    
+    }while(z7x2!='14');
+    
+    do{
+        var z7x3=prompt('Was ist 7x3 ?')
+    
+        if(z7x3=='21'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 21');}
+    
+        falschA++;
+    
+    }while(z7x3!='21');
+    
+    do{
+        var z7x4=prompt('Was ist 7x4 ?')
+    
+        if(z7x4=='28'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 28');}
+    
+        falschA++;
+    
+        }while(z7x4!='28');
+    
+    
+    do{
+        var z7x5=prompt('Was ist 7x5 ?')
+    
+        if(z7x5=='35'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 35');}
+    
+        falschA++;
+    
+    }while(z7x5!='35');
+    
+    
+    do{
+        var z7x6=prompt('Was ist 7x6 ?')
+    
+        if(z7x6=='42'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 42');}
+    
+        falschA++;
+    
+    }while(z7x6!='42');
+    
+    
+    do{
+        var z7x7=prompt('Was ist 7x7 ?')
+    
+        if(z7x7=='49'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 49');}
+    
+        falschA++;
+    
+    }while(z7x7!='49');
+    
+    
+    do{
+        var z7x8=prompt('Was ist 7x8 ?')
+    
+        if(z7x8=='56'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 56');}
+    
+        falschA++;
+    
+    }while(z7x8!='56');
+    
+    
+    do{
+        var z7x9=prompt('Was ist 7x9 ?')
+    
+        if(z7x9=='63'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 63');}
+    
+        falschA++;
+    
+    }while(z7x9!='63');
+    
+    
+    do{
+        var z7x10=prompt('Was ist 7x10 ?')
+    
+        if(z7x10=='70'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 70');}
+    
+        falschA++;
+    
+    }while(z7x10!='70');
+    
+    
+    
+    
+    falschA=falschA-9;
+            alert('Du hast '+falschA+' fehler bei 9 Aufgaben');
+    
+                
+    
+            //var neuSpiel=prompt('Wenn du nochmal Spielen willst, dann tippe "Ja" ein. \nWenn du ohnel Lösungen Spielen willst, dann tippe irgendwas anderes ein.');
+           // neuSpielR
+       // }while(neuSpiel=='Ja'&&neuSpiel=='ja');
+    
+    }else if(frage=='Nein' || frage=='nein'){
+    
+    
+        var falschAPro=0;
+    
+    
+    do{
+        var z7x2=prompt('Was ist 7x2 ?')
+    
+        if(z7x2=='14'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z7x2!='14');
+    
+    do{
+        var z7x3=prompt('Was ist 7x3 ?')
+    
+        if(z7x3=='21'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z7x3!='21');
+    
+    do{
+        var z7x4=prompt('Was ist 7x4 ?')
+    
+        if(z7x4=='28'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z7x4!='28');
+    
+    
+    do{
+        var z7x5=prompt('Was ist 7x5 ?')
+    
+        if(z7x5=='35'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z7x5!='35');
+    
+    
+    
+    do{
+        var z7x6=prompt('Was ist 7x6 ?')
+    
+        if(z7x6=='42'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z7x6!='42');
+    
+    
+    do{
+        var z7x7=prompt('Was ist 7x7 ?')
+    
+        if(z7x7=='49'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z7x7!='49');
+    
+    
+    do{
+        var z7x8=prompt('Was ist 7x8 ?')
+    
+        if(z7x8=='56'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z7x8!='56');
+    
+    
+    do{
+        var z7x9=prompt('Was ist 7x9 ?')
+    
+        if(z7x9=='63'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z7x9!='63');
+    
+    
+    do{
+        var z7x10=prompt('Was ist 7x10 ?')
+    
+        if(z7x10=='70'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z7x10!='70');
+    
+    
+  
+    
+    
+    
+    falschAPro=falschAPro-9;
+    alert('Du hast '+falschAPro+' fehler bei 9 Aufgaben');
+    
+    //var neuSpielR=prompt('Wenn du nochmal mit Antworten Spielen willst, dann tippe "Ja" ein. \nWenn du aufhören willst dann tippe irgendwas anderes ein.');
+    //neuSpielR
+    //}while(neuSpielR=='Ja'&&neuSpiel=='ja');
+}
+}
+
+function z8er_1x1(){
+    //do{
+    
+    //do{
+
+        var frage=prompt('Möchtest du mit Lösungen Spielen?');
+
+if(frage=='Ja' || frage=='ja'){
+    
+    var falschA=0;
+    
+    
+    do{
+        var z8x2=prompt('Was ist 8x2 ?')
+    
+        if(z8x2=='16'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 16');}
+    
+        falschA++;
+    
+    }while(z8x2!='16');
+    
+    do{
+        var z8x3=prompt('Was ist 8x3 ?')
+    
+        if(z8x3=='24'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 24');}
+    
+        falschA++;
+    
+    }while(z8x3!='24');
+    
+    do{
+        var z8x4=prompt('Was ist 8x4 ?')
+    
+        if(z8x4=='32'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 32');}
+    
+        falschA++;
+    
+        }while(z8x4!='32');
+    
+    
+    do{
+        var z8x5=prompt('Was ist 8x5 ?')
+    
+        if(z8x5=='40'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 40');}
+    
+        falschA++;
+    
+    }while(z8x5!='40');
+    
+    
+    do{
+        var z8x6=prompt('Was ist 8x6 ?')
+    
+        if(z8x6=='48'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 48');}
+    
+        falschA++;
+    
+    }while(z8x6!='48');
+    
+    
+    do{
+        var z8x7=prompt('Was ist 8x7 ?')
+    
+        if(z8x7=='56'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 56');}
+    
+        falschA++;
+    
+    }while(z8x7!='56');
+    
+    
+    do{
+        var z8x8=prompt('Was ist 8x8 ?')
+    
+        if(z8x8=='64'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 64');}
+    
+        falschA++;
+    
+    }while(z8x8!='64');
+    
+    
+    do{
+        var z8x9=prompt('Was ist 8x9 ?')
+    
+        if(z8x9=='72'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 72');}
+    
+        falschA++;
+    
+    }while(z8x9!='72');
+    
+    
+    do{
+        var z8x10=prompt('Was ist 8x10 ?')
+    
+        if(z8x10=='80'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 80');}
+    
+        falschA++;
+    
+    }while(z8x10!='80');
+    
+    
+    
+    
+    falschA=falschA-9;
+            alert('Du hast '+falschA+' fehler bei 9 Aufgaben');
+    
+                
+    
+            //var neuSpiel=prompt('Wenn du nochmal Spielen willst, dann tippe "Ja" ein. \nWenn du ohnel Lösungen Spielen willst, dann tippe irgendwas anderes ein.');
+           // neuSpielR
+       // }while(neuSpiel=='Ja'&&neuSpiel=='ja');
+    
+    }else if(frage=='Nein' || frage=='nein'){
+    
+    
+        var falschAPro=0;
+    
+    
+    do{
+        var z8x2=prompt('Was ist 8x2 ?')
+    
+        if(z8x2=='16'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z8x2!='16');
+    
+    do{
+        var z8x3=prompt('Was ist 8x3 ?')
+    
+        if(z8x3=='24'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z8x3!='24');
+    
+    do{
+        var z8x4=prompt('Was ist 8x4 ?')
+    
+        if(z8x4=='32'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z8x4!='32');
+    
+    
+    do{
+        var z8x5=prompt('Was ist 8x5 ?')
+    
+        if(z8x5=='40'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z8x5!='40');
+    
+    
+    
+    do{
+        var z8x6=prompt('Was ist 8x6 ?')
+    
+        if(z8x6=='48'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z8x6!='48');
+    
+    
+    do{
+        var z8x7=prompt('Was ist 8x7 ?')
+    
+        if(z8x7=='56'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z8x7!='56');
+    
+    
+    do{
+        var z8x8=prompt('Was ist 8x8 ?')
+    
+        if(z8x8=='64'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z8x8!='64');
+    
+    
+    do{
+        var z8x9=prompt('Was ist 8x9 ?')
+    
+        if(z8x9=='72'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z8x9!='72');
+    
+    
+    do{
+        var z8x10=prompt('Was ist 8x10 ?')
+    
+        if(z8x10=='80'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z8x10!='80');
+    
+    
+  
+    
+    
+    
+    falschAPro=falschAPro-9;
+    alert('Du hast '+falschAPro+' fehler bei 9 Aufgaben');
+    
+    //var neuSpielR=prompt('Wenn du nochmal mit Antworten Spielen willst, dann tippe "Ja" ein. \nWenn du aufhören willst dann tippe irgendwas anderes ein.');
+    //neuSpielR
+    //}while(neuSpielR=='Ja'&&neuSpiel=='ja');
+}
+}
+
+function z9er_1x1(){
+    //do{
+    
+    //do{
+
+        var frage=prompt('Möchtest du mit Lösungen Spielen?');
+
+if(frage=='Ja' || frage=='ja'){
+    
+    var falschA=0;
+    
+    
+    do{
+        var z9x2=prompt('Was ist 9x2 ?')
+    
+        if(z9x2=='18'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 18');}
+    
+        falschA++;
+    
+    }while(z9x2!='18');
+    
+    do{
+        var z9x3=prompt('Was ist 9x3 ?')
+    
+        if(z9x3=='27'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 27');}
+    
+        falschA++;
+    
+    }while(z9x3!='27');
+    
+    do{
+        var z9x4=prompt('Was ist 9x4 ?')
+    
+        if(z9x4=='32'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 32');}
+    
+        falschA++;
+    
+        }while(z9x4!='32');
+    
+    
+    do{
+        var z9x5=prompt('Was ist 9x5 ?')
+    
+        if(z9x5=='40'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 40');}
+    
+        falschA++;
+    
+    }while(z9x5!='40');
+    
+    
+    do{
+        var z9x6=prompt('Was ist 9x6 ?')
+    
+        if(z9x6=='48'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 48');}
+    
+        falschA++;
+    
+    }while(z9x6!='48');
+    
+    
+    do{
+        var z9x7=prompt('Was ist 9x7 ?')
+    
+        if(z9x7=='56'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 56');}
+    
+        falschA++;
+    
+    }while(z9x7!='56');
+    
+    
+    do{
+        var z9x8=prompt('Was ist 9x8 ?')
+    
+        if(z9x8=='64'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 64');}
+    
+        falschA++;
+    
+    }while(z9x8!='64');
+    
+    
+    do{
+        var z9x9=prompt('Was ist 9x9 ?')
+    
+        if(z9x9=='72'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 72');}
+    
+        falschA++;
+    
+    }while(z9x9!='72');
+    
+    
+    do{
+        var z9x10=prompt('Was ist 9x10 ?')
+    
+        if(z9x10=='90'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nDie richtige Antwort ist 90');}
+    
+        falschA++;
+    
+    }while(z9x10!='90');
+    
+    
+    
+    
+    falschA=falschA-9;
+            alert('Du hast '+falschA+' fehler bei 9 Aufgaben');
+    
+                
+    
+            //var neuSpiel=prompt('Wenn du nochmal Spielen willst, dann tippe "Ja" ein. \nWenn du ohnel Lösungen Spielen willst, dann tippe irgendwas anderes ein.');
+            //neuSpielR
+        //}while(neuSpiel=='Ja'&&neuSpiel=='ja');
+    
+    }else if(frage=='Nein' || frage=='nein'){
+    
+    
+        var falschAPro=0;
+    
+    
+    do{
+        var z9x2=prompt('Was ist 9x2 ?')
+    
+        if(z9x2=='16'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z9x2!='16');
+    
+    do{
+        var z9x3=prompt('Was ist 9x3 ?')
+    
+        if(z9x3=='24'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z9x3!='24');
+    
+    do{
+        var z9x4=prompt('Was ist 9x4 ?')
+    
+        if(z9x4=='32'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z9x4!='32');
+    
+    
+    do{
+        var z9x5=prompt('Was ist 9x5 ?')
+    
+        if(z9x5=='40'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z9x5!='40');
+    
+    
+    
+    do{
+        var z9x6=prompt('Was ist 9x6 ?')
+    
+        if(z9x6=='48'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z9x6!='48');
+    
+    
+    do{
+        var z9x7=prompt('Was ist 9x7 ?')
+    
+        if(z9x7=='56'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z9x7!='56');
+    
+    
+    do{
+        var z9x8=prompt('Was ist 9x8 ?')
+    
+        if(z9x8=='64'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z9x8!='64');
+    
+    
+    do{
+        var z9x9=prompt('Was ist 9x9 ?')
+    
+        if(z9x9=='72'){alert('Prima das ist richtg \nweiter so!');
+        }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z9x9!='72');
+    
+    
+    do{
+        var z9x10=prompt('Was ist 9x10 ?')
+    
+        if(z9x10=='90'){alert('Prima das ist richtg \nweiter so!');
+       }else{alert('Oh Leider war das falsch \nProbiere es gleich noch mal');}
+    
+        falschAPro++;
+    
+    }while(z9x10!='90');
+    
+    
+  
+    
+    
+    
+    falschAPro=falschAPro-9;
+    alert('Du hast '+falschAPro+' fehler bei 9 Aufgaben');
+    
+    var neuSpielR=prompt('Wenn du nochmal mit Antworten Spielen willst, dann tippe "Ja" ein. \nWenn du aufhören willst dann tippe irgendwas anderes ein.');
+    //neuSpielR
+    //}while(neuSpielR=='Ja'&&neuSpiel=='ja');
+}
+}
+
+</script>
+
+
+    
+</body>
+</html>

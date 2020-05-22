@@ -112,12 +112,6 @@ function draw() {
     let end1 = map(sc, 0, 60, 0, 360);
     arc(0, 0, 278, 278, 0, end1);
 
-    push();
-    rotate(end1);
-    strokeWeight(6);
-    stroke(255, 100, 150);
-    line(0, 0, 100, 0);
-    pop();
 
     stroke(150, 100, 255);
     let end2 = map(mn, 0, 60, 0, 360);
@@ -125,7 +119,7 @@ function draw() {
 
     push();
     rotate(end2);
-    strokeWeight(6);
+    strokeWeight(5.5);
     stroke(150, 100, 255);
     line(0, 0, 110, 0);
     pop();
@@ -136,9 +130,23 @@ function draw() {
 
     push();
     rotate(end3);
-    strokeWeight(6);
+    strokeWeight(6.5);
     stroke(150, 255, 100);
     line(0, 0, 70, 0);
+    pop();
+
+    push();
+    rotate(end1);
+    strokeWeight(2);
+    stroke(255, 100, 150);
+    line(0, 0, 120, 0);
+    pop();
+
+    push();
+    rotate(end1 + 180);
+    strokeWeight(2);
+    stroke(255, 100, 150);
+    line(0, 0, 20, 0);
     pop();
 
     strokeWeight(15);
@@ -148,6 +156,4 @@ function draw() {
     strokeWeight(5);
     stroke(0);
     point(0, 0);
-
-
 }

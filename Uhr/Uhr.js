@@ -121,7 +121,7 @@ function draw() {
 
     stroke(150, 100, 255);
     let end2 = map(mn, 0, 60, 0, 360);
-    arc(0, 0, 270, 270, 0, end2);
+    arc(0, 0, 267, 267, 0, end2);
 
     push();
     rotate(end2);
@@ -132,7 +132,7 @@ function draw() {
 
     stroke(150, 255, 100);
     let end3 = map(hr % 12, 0, 12, 0, 360);
-    arc(0, 0, 262, 262, 0, end3);
+    arc(0, 0, 256, 256, 0, end3);
 
     push();
     rotate(end3);

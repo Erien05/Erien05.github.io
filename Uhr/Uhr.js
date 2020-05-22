@@ -127,7 +127,7 @@ function draw() {
     rotate(end2);
     strokeWeight(6);
     stroke(150, 100, 255);
-    line(0, 0, 70, 0);
+    line(0, 0, 110, 0);
     pop();
 
     stroke(150, 255, 100);
@@ -138,7 +138,7 @@ function draw() {
     rotate(end3);
     strokeWeight(6);
     stroke(150, 255, 100);
-    line(0, 0, 110, 0);
+    line(0, 0, 70, 0);
     pop();
 
     strokeWeight(15);

@@ -95,11 +95,11 @@ function draw() {
     rotate(90);
     fill(255);
     noStroke();
-    if (mn < 10) {
+    if (mn < 10 && sc < 10) {
+        text(hr + ':0' + mn + ':0' + sc, -160, -150)
+    } else if (mn < 10) {
         text(hr + ':0' + mn + ':' + sc, -160, -150)
     } else if (sc < 10) {
-        text(hr + ':' + mn + ':0' + sc, -160, -150)
-    } else if (mn < 10 && sc < 10) {
         text(hr + ':' + mn + ':0' + sc, -160, -150)
     } else {
         text(hr + ':' + mn + ':' + sc, -160, -150)

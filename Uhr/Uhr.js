@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(800, 800);
     angleMode(DEGREES);
 }
 
@@ -93,22 +93,39 @@ function draw() {
 
     push();
     rotate(90);
-    fill(255);
+    textSize(40);
+    //fill(0, 206, 209);
+    fill(0, 154, 205);
     noStroke();
+
     if (mn < 10 && sc < 10) {
-        text(hr + ':0' + mn + ':0' + sc, -160, -150)
+
+        text(hr + ':0' + mn + ':0' + sc, -78, 202)
+
     } else if (mn < 10) {
-        text(hr + ':0' + mn + ':' + sc, -160, -150)
+
+        text(hr + ':0' + mn + ':' + sc, -78, 202)
+
     } else if (sc < 10) {
-        text(hr + ':' + mn + ':0' + sc, -160, -150)
+
+        text(hr + ':' + mn + ':0' + sc, -78, 202)
+
     } else {
-        text(hr + ':' + mn + ':' + sc, -160, -150)
+
+        text(hr + ':' + mn + ':' + sc, -78, 202)
+
     }
+
     pop();
 
+
+
     strokeWeight(4);
+
     stroke(255, 100, 150);
+
     noFill();
+
     let end1 = map(sc, 0, 60, 0, 360);
     arc(0, 0, 278, 278, 0, end1);
 
@@ -146,7 +163,7 @@ function draw() {
     rotate(end1 + 180);
     strokeWeight(2);
     stroke(255, 100, 150);
-    line(0, 0, 20, 0);
+    line(0, 0, 25, 0);
     pop();
 
     strokeWeight(15);

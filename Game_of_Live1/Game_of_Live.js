@@ -13,7 +13,7 @@ let resolution = 10;
 
 function setup() {
     //createCanvas(3150, 1500);
-    createCanvas(1500, 1500);
+    createCanvas(1900, 1500);
 
 
     cols = width / resolution;

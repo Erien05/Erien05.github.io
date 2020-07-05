@@ -3,6 +3,7 @@ var symbolSpieler;
 var anzahlRunden = 0;
 var gewinneComputer = 0;
 var gewinneSpieler = 0;
+var runden = 0;
 
 var input;
 var buttonInput;
@@ -75,7 +76,7 @@ function Los() {
 
 
 
-        wahlSpieler = prompt();
+        wahlSpieler = prompt('Gib deine Wahl ein');
 
 
         // wahlSpieler = 1;
@@ -199,6 +200,7 @@ function Los() {
         }
 
         anzahlRunden++;
+        runden++;
 
 
 
@@ -214,7 +216,7 @@ function Los() {
     }
 
     alert(gewinneSpieler + ' zu ' + gewinneComputer);
-
+    alert('Du hast '+runden+' Runden gegen den Computer gespielt');
 
 
 

@@ -1,0 +1,18 @@
+1597155785093	geckodriver	INFO	Listening on 127.0.0.1:62690
+1597155788168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\quaju\\AppData\\Local\\Temp\\rust_mozprofile9et7CO"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597155791401	Marionette	INFO	Listening on port 62698
+1597155791862	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.uicdn.com/nav-cdn/shared/jquery/2.2.4/jquery-2.2.4.min.js, line 41: unreachable code after return statement
+JavaScript warning: https://s.uicdn.com/nav-cdn/shared/jquery/2.2.4/jquery-2.2.4.min.js, line 41: unreachable code after return statement
+JavaScript warning: https://s.uicdn.com/nav-cdn/shared/jquery/2.2.4/jquery-2.2.4.min.js, line 41: unreachable code after return statement
+JavaScript warning: https://s.uicdn.com/nav-cdn/shared/jquery/2.2.4/jquery-2.2.4.min.js, line 41: unreachable code after return statement
+1597155803604	Marionette	INFO	Stopped listening on port 62698
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
